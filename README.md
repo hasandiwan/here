@@ -5,7 +5,33 @@ App ID: pRx2iZs3UW7YAjlvsdCJ
 
 Key: l6QfiFZpUmxv8qthYmXYlw
 
-Sample Response:
+Sample Requests/Responses:
+
+https://nominatim.openstreetmap.org/search?format=json&q=1600+vine+street,+hollywood,+california
+
+`
+[
+    {
+        "place_id": 19548580,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1902175919,
+        "boundingbox": [
+            "34.0999666",
+            "34.1000666",
+            "-118.3265162",
+            "-118.3264162"
+        ],
+        "lat": "34.1000166",
+        "lon": "-118.3264662",
+        "display_name": "Trader Joe's, 1600, Vine Street, Whitley Heights Historic District, Hollywood, Los Angeles, Los Angeles County, California, 90028, United States of America",
+        "class": "shop",
+        "type": "supermarket",
+        "importance": 0.511,
+        "icon": "https://nominatim.openstreetmap.org/images/mapicons/shopping_supermarket.p.20.png"
+    }
+]
+`
 
 https://route.api.here.com/routing/7.2/calculateroute.json?app_id=pRx2iZs3UW7YAjlvsdCJ&app_code=l6QfiFZpUmxv8qthYmXYlw&waypoint0=geo!52.5,13.4&waypoint1=geo!52.5,13.45&mode=fastest;car;traffic:disabled
 
