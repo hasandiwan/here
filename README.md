@@ -1,6 +1,8 @@
 
 [![Join the chat at https://gitter.im/hasandiwan_here/community](https://badges.gitter.im/hasandiwan_here/community.svg)](https://gitter.im/hasandiwan_here/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Download [maven](https://maven.apache.org) and set it up. Then run `mvn test`. It should fail. Then write the minimum of code to make it pass. Create a new branch and commit to that. Once the test passes, issue a pull request and I'll let you know when I've written another test. We'll iterate in this way till your mates are satisfied with the result.
+
 Here.com access information
 _______
 
